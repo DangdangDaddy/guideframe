@@ -1,0 +1,5 @@
+av==13.1.0
+Pillow==11.3.0
+numpy==2.0.2
+imageio-ffmpeg==0.6.0
+pytest==8.3.5

@@ -1,0 +1,34 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging and local dependency artifacts
+build/
+dist/
+*.egg-info/
+wheelhouse/
+
+# Editors and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Temporary/locally generated render outputs
+*.tmp.mp4
+*.tmp.gif
+*.tmp.png
+examples/my-demo/

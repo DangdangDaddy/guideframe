@@ -1,0 +1,62 @@
+[
+  {
+    "activeModifiers": [],
+    "cursorId": "pointingHand",
+    "processTimeMs": 2500.0,
+    "type": "mouseDown",
+    "unixTimeMs": 1800000002500.0,
+    "x": 250.0,
+    "y": 140.0,
+    "button": "left"
+  },
+  {
+    "activeModifiers": [],
+    "cursorId": "pointingHand",
+    "processTimeMs": 2580.0,
+    "type": "mouseUp",
+    "unixTimeMs": 1800000002580.0,
+    "x": 250.0,
+    "y": 140.0,
+    "button": "left"
+  },
+  {
+    "activeModifiers": [],
+    "cursorId": "arrow",
+    "processTimeMs": 3650.0,
+    "type": "mouseDown",
+    "unixTimeMs": 1800000003650.0,
+    "x": 620.0,
+    "y": 140.0,
+    "button": "left"
+  },
+  {
+    "activeModifiers": [],
+    "cursorId": "arrow",
+    "processTimeMs": 3720.0,
+    "type": "mouseUp",
+    "unixTimeMs": 1800000003720.0,
+    "x": 620.0,
+    "y": 140.0,
+    "button": "left"
+  },
+  {
+    "activeModifiers": [],
+    "cursorId": "arrow",
+    "processTimeMs": 5850.0,
+    "type": "mouseDown",
+    "unixTimeMs": 1800000005850.0,
+    "x": 620.0,
+    "y": 330.0,
+    "button": "left"
+  },
+  {
+    "activeModifiers": [],
+    "cursorId": "arrow",
+    "processTimeMs": 5920.0,
+    "type": "mouseUp",
+    "unixTimeMs": 1800000005920.0,
+    "x": 620.0,
+    "y": 330.0,
+    "button": "left"
+  }
+]

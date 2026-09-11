@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "video": {
+    "path": "source-vfr.mp4",
+    "width": 1280,
+    "height": 720
+  },
+  "bounds": {
+    "x": 100.0,
+    "y": 50.0,
+    "width": 640.0,
+    "height": 360.0
+  },
+  "processTimeStartMs": 1000.0,
+  "mouseMoves": "mousemoves.json",
+  "mouseClicks": "mouseclicks.json",
+  "outputFps": 30,
+  "cursorScale": 1.5,
+  "zooms": [
+    {
+      "startMs": 1300.0,
+      "endMs": 3300.0,
+      "target": {
+        "x": 0.234375,
+        "y": 0.25
+      },
+      "scale": 2.0
+    },
+    {
+      "startMs": 4200.0,
+      "endMs": 6400.0,
+      "target": {
+        "x": 0.8125,
+        "y": 0.7777777777777778
+      },
+      "scale": 2.0
+    }
+  ]
+}
