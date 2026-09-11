@@ -28,6 +28,8 @@ wheelhouse/
 *.pfx
 
 # Temporary/locally generated render outputs
+tests/output/
+*.screenstudio/
 *.tmp.mp4
 *.tmp.gif
 *.tmp.png
