@@ -18,6 +18,15 @@ wheelhouse/
 .vscode/
 .DS_Store
 
+# Local collaboration instructions and agent memory
+/AGENTS.md
+/SOUL.md
+/MEMORY.md
+/LEARNING-PLAN.md
+/CONFIG-NOTES.md
+/memory/
+/简要开发说明.md
+
 # Local configuration and credentials
 .env
 .env.*
