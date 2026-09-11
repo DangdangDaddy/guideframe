@@ -1,4 +1,4 @@
-"""Generate the fully synthetic input used by the local demo and acceptance checks.
+"""Generate the fully synthetic input used by the GuideFrame demo and acceptance checks.
 
 The artwork, pointer targets, event data, and audio are created locally.  Nothing
 in this module reads Screen Studio projects or bundles third-party media.
@@ -167,7 +167,7 @@ def _write_vfr_source(path: Path) -> None:
     # Irregular PTS changes verify that source-frame holding and CFR animation are
     # separate concerns.  The final duplicate is required by concat demuxer.
     pts = (0.0, 0.70, 1.90, 3.30, 4.80, 6.20, 6.96, DEMO_DURATION)
-    with tempfile.TemporaryDirectory(prefix="local-demo-") as temp_name:
+    with tempfile.TemporaryDirectory(prefix="guideframe-") as temp_name:
         temp_dir = Path(temp_name)
         frame_paths: List[Path] = []
         for index in range(7):

@@ -1,6 +1,6 @@
-# local-demo
+# GuideFrame
 
-`local-demo` 是一个完全本地运行的第一阶段屏幕录制后期渲染器。它把无光标的本地 MP4 与 `session.json` 合成为带平滑鼠标、左键圆环和显式缩放的 MP4、GIF 或精确时刻 PNG；运行时不登录、不上传，也不使用系统 PATH 中的 FFmpeg。
+GuideFrame 是一个完全本地运行的第一阶段屏幕录制后期渲染器。它把无光标的本地 MP4 与 `session.json` 合成为带平滑鼠标、左键圆环和显式缩放的 MP4、GIF 或精确时刻 PNG；运行时不登录、不上传，也不使用系统 PATH 中的 FFmpeg。
 
 当前工作区的虚拟环境已准备好。用一条命令生成合成输入和三种导出：
 

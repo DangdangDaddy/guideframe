@@ -322,7 +322,7 @@ def _run_encoder(command: Sequence[str], frames: Iterable[Image.Image], progress
     FFmpeg stderr is redirected to a temporary log, preventing its diagnostics from
     filling a pipe when an encode fails.  The log is included in the raised error.
     """
-    log_file = tempfile.NamedTemporaryFile(prefix="local-demo-ffmpeg-", suffix=".log", delete=False)
+    log_file = tempfile.NamedTemporaryFile(prefix="guideframe-ffmpeg-", suffix=".log", delete=False)
     log_path = Path(log_file.name)
     process: Optional[subprocess.Popen[bytes]] = None
     try:
